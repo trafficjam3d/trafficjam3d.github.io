@@ -55,7 +55,7 @@ for (let index = 0; index < list.length; index++) {
 var html = `
 
 <ul style="color: #ffffff; padding: 0px; margin: 0px; font-size: 20px;">
-  <li style="padding: 5px; display: inline-block; float: right;">
+  <li style="padding: 5px; display: inline-block; float: left;">
     <a href="/" style="color: #ffffff; text-decoration: none;">TRAFFIC JAM 3D</a>
   </li>
   ${in_html}
@@ -78,6 +78,10 @@ window.addEventListener('load', function() {
     var e = this.document.createElement("div");
     e.style = "width: 100%; text-align: center; position: absolute; top: 0px; z-index: 999; background: rgb(119, 119, 255); opacity: 0.8;"
     e.innerHTML = html;
+    e.id="listLink";
     document.getElementsByTagName('body')[0].appendChild(e);
     loadAds();
 });
+function closeBacklinks(){
+    document.querySelector('#listLink').style.display = "none";
+}
