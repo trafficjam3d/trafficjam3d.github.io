@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui" />
+    <title>Play Telekinesis Race 3D Unblocked on Traffic Jam 3D</title>
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+   
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <style>
+      @font-face {
+        font-family: Fredoka;
+        src: url(fonts/Fredoka-VariableFont_wdth%2cwght.ttf);
+      }
+    </style>
+    <style>
+      .Search {
+        margin-left: -10px;
+        position: relative;
+      }
+
+      .Search input {
+        border-radius: 3px;
+        border: none;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .Search button {
+        background: #fff;
+        padding: 8px;
+        border-radius: 3px;
+        border: 3px solid rgba(0, 0, 0, .12);
+        font-weight: bold;
+        position: absolute;
+        right: 0px;
+      }
+
+      .Category a {
+        text-transform: capitalize;
+      }
+
+      .Category_list a:hover {
+        color: #36d798;
+      }
+
+      .Category_list {
+        padding-bottom: 15px;
+      }
+    </style>
+    <style>.before-playing {
+      position: relative;
+      height: 666px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #16181e;
+      border-radius: 16px;
+      }
+      .blur-background {
+      background: url(https://trafficjam3d.github.io/telekinesis-race-3d//logo.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(15px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      }
+      .btn-primary {
+      background: #f11932;
+      font-weight: 700;
+      line-height: 1.3;
+      color: #fff;
+      padding: 0.5rem 1.5rem;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      position: relative;
+      z-index: 2;
+      border: 0;
+      transition: 0.1s ease-in-out;
+      outline: 0;
+      border-radius: 20px;
+      font-size: 18px;
+      }
+      .image-thumbnail-playing {
+      position: absolute;
+      background: rgba(15, 15, 15, 0.5);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 16px;
+      transition: 0.3s ease-in;
+      width: 250px;
+      }
+      .image-thumbnail-playing:hover {
+      }
+      .image-thumbnail-playing img {
+      border-radius: 16px;
+      }
+      .before-playing:hover .btn-primary {
+      -webkit-animation: pulse 2s infinite;
+      animation: pulse 2s infinite;
+      }
+     
+      @-webkit-keyframes pulse {
+      0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+      }
+      70% {
+      box-shadow: 0 0 0 10px transparent;
+      }
+      100% {
+      box-shadow: 0 0 0 0 transparent;
+      }
+      }
+      @keyframes  pulse {
+      0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+      }
+      70% {
+      box-shadow: 0 0 0 10px transparent;
+      }
+      100% {
+      box-shadow: 0 0 0 0 transparent;
+      }
+      }
+      .playbttn.btn.gametitle {
+      text-transform: uppercase;
+      font-weight: 700;
+      }
+      @-webkit-keyframes animatedown {
+      from {
+      -webkit-transform: translate(0, -5px);
+      }
+      to {
+      -webkit-transform: translate(0, 0);
+      }
+      }
+      @-moz-keyframes animatedown {
+      from {
+      -moz-transform: translate(0, -5px);
+      }
+      to {
+      -moz-transform: translate(0, 0);
+      }
+      }
+      @-ms-keyframes animatedown {
+      from {
+      -ms-transform: translate(0, -5px);
+      }
+      to {
+      -ms-transform: translate(0, 0);
+      }
+      }
+      @-o-keyframes animatedown {
+      from {
+      -o-transform: translate(0, -5px);
+      }
+      to {
+      -o-transform: translate(0, 0);
+      }
+      }
+      @keyframes  animatedown {
+      from {
+      transform: translate(0, -5px);
+      }
+      to {
+      transform: translate(0, 0);
+      }
+      }
+      @-webkit-keyframes animateup {
+      from {
+      -webkit-transform: translate(0, 5px);
+      }
+      to {
+      -webkit-transform: translate(0, 0);
+      }
+      }
+      @-moz-keyframes animateup {
+      from {
+      -moz-transform: translate(0, 5px);
+      }
+      to {
+      -moz-transform: translate(0, 0);
+      }
+      }
+      @-ms-keyframes animateup {
+      from {
+      -ms-transform: translate(0, 5px);
+      }
+      to {
+      -ms-transform: translate(0, 0);
+      }
+      }
+      @-o-keyframes animateup {
+      from {
+      -o-transform: translate(0, 5px);
+      }
+      to {
+      -o-transform: translate(0, 0);
+      }
+      }
+      @keyframes  animateup {
+      from {
+      transform: translate(0, 5px);
+      }
+      to {
+      transform: translate(0, 0);
+      }
+      }
+      @-webkit-keyframes animateleft {
+      from {
+      -webkit-transform: translate(0, 0);
+      }
+      to {
+      -webkit-transform: translate(10px, 0);
+      }
+      }
+      @-moz-keyframes animateleft {
+      from {
+      -moz-transform: translate(0, 0);
+      }
+      to {
+      -moz-transform: translate(10px, 0);
+      }
+      }
+      @-ms-keyframes animateleft {
+      from {
+      -ms-transform: translate(0, 0);
+      }
+      to {
+      -ms-transform: translate(10px, 0);
+      }
+      }
+      @-o-keyframes animateleft {
+      from {
+      -o-transform: translate(0, 0);
+      }
+      to {
+      -o-transform: translate(10px, 0);
+      }
+      }
+      @keyframes  animateleft {
+      from {
+      transform: translate(0, 0);
+      }
+      to {
+      transform: translate(10px, 0);
+      }
+      }
+     
+      @media (max-width: 600px) {
+      .preload-before-playing {
+      flex-direction: column;
+      justify-content: center;
+      }
+      .title-game-playing {
+      padding-top: 20px;
+      }
+      }</style>
+  </head>
+  <script type="text/javascript">
+    
+  </script>
+  <body>
+    <div class="Out">
+      <div class="Container">
+        <div class="Left_hotgames">
+          <div class="Style_nav">
+            <a href="/">
+              <div style="padding: 10px;">
+                <div class="Home">
+                  <img style="width: 40px;" src="images/home.png" alt="Home Logo">
+                  <span>Home page </span>
+                </div>
+              </div>
+            </a>
+            <div class="Most">
+              <img style="width: 50px;" src="images/play-games.png" alt="Most Played"> The most played game!
+            </div>
+            <div style="display: none;">
+              <div class="Qc">
+                <div class="Code_gg">
+                  <div class="Ads">
+                   
+                  </div>
+                  <div class="Txt">advertisement</div>
+                </div>
+              </div>
+            </div>
+            <div id="hotgames">
+              <div class="Lists">
+                <a href="https://trafficjam3d.github.io/miami-crime-simulator-3d/">Miami Crime Simulator 3D</a>
+              </div>
+              <div class="Lists">
+                <a href="https://trafficjam3d.github.io/mega-ramp-car-stunts/">Mega Ramp Car Stunts</a>
+              </div>
+              <div class="Lists">
+                <a href="https://trafficjam3d.github.io/color-tunnel-2/">Color Tunnel 2</a>
+              </div>
+              <div class="Lists">
+                <a href="https://trafficjam3d.github.io/stunt-biker-3d/">Stunt Biker 3D</a>
+              </div>
+              <div class="Lists">
+                <a href="https://trafficjam3d.github.io/furious-racing-3d/">Furious Racing 3D</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="Right_boxplay">
+          <div class="Out_box">
+            <div class="Box_play">
+              <div class="before-playing" id="preloading-game" data-url="https://trafficjam3d.github.io/telekinesis-race-3d/">
+                <div class="blur-background"></div>
+                <div class="preload-before-playing" onclick="playgame()">
+                  <div class="Q">
+                    <div class="image-thumbnail-playing">
+                      <div>
+                        <img alt="Traffic Jam 3D Logo" style=" cursor: pointer;" width="100%" src="https://trafficjam3d.github.io/telekinesis-race-3d//logo.png">
+                      </div>
+                      <div style="margin-top: 15px;
+               padding: 10px 0;" onclick="playgame()" class="title-game-playing">
+                        <span class="btn-primary">
+                          <span>
+                            <img style="width: 30px;margin-top: -5px;margin-right: 10px;" src="images/icons-play.png">
+                          </span>Play Now </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 20px 0;">
+              <div class="Full_screen">
+                <span id="expand" onclick="requestFullScreen(document.querySelector('#iframehtml5'))">Play Full Screen </span>
+              </div>
+            </div>
+          </div>
+          <div class="Game_area">
+            <div class="Game_content">
+              <div class="Padding">
+                <div class="Boxshadow X">
+                  <div>
+                    <div class="Qc_mid">
+                      <div class="H_QC" style="text-align: center;">
+                        <!-- ads-->
+                      </div>
+                      <div class="Txt">advertisement</div>
+                    </div>
+                  </div>
+                  <div class="Uppercase">
+                    <div class="Title_home">
+                      <h1>Telekinesis Race 3D</h1>
+                    </div>
+                  </div>
+                  <div class="Img Boxshadow">
+                    <img src="https://trafficjam3d.github.io/telekinesis-race-3d//logo.png" alt="Telekinesis Race 3D">
+                  </div>
+                  <div class="Content">
+                    <p>Telekinesis Race 3D is an engaging arcade game that combines racing with superhuman abilities, offering players a unique gaming experience. The main features of the game include:
+
+                    </p>
+                    <ul class="list-outside list-disc pl-8">
+                      <li><span class="">
+                      </span><span class=""><span class=""><strong>Superhuman Abilities</strong></span><span class="">: Players can use telekinetic powers to lift, throw, and manipulate objects, allowing for creative and strategic gameplay.</span></span><span class="">
+                      </span></li>
+                      <li><span class="">
+                      </span><span class=""><span class=""><strong>Combat and Destruction</strong></span><span class="">: The game revolves around engaging in combat and causing destruction using telekinetic powers. Players can throw objects at enemies, lift and toss foes, and interact with environmental elements to defeat adversaries.</span></span><span class="">
+                      </span></li>
+                      <li><span class="">
+                      </span><span class=""><span class=""><strong>Interactive Environment</strong></span><span class="">: The game world is filled with various objects and obstacles that players can utilize to their advantage. These items can be used as weapons, shields, or to create diversions, adding depth to the gameplay.</span></span><span class="">
+                      </span></li>
+                      <li><span class="">
+                      </span><span class=""><span class=""><strong>Unique Levels</strong></span><span class="">: With numerous unique levels, players face different challenges and objectives, keeping the game fresh and engaging.</span></span><span class="">
+                      </span></li>
+                      <li><span class="">
+                      </span><span class=""><span class=""><strong>Racing Element</strong></span><span class="">: As a racer with superhuman abilities, players must compete against rivals and reach the finish line while using their telekinetic skills to gain an edge.</span></span><span class="">
+                      </span></li>
+                      </ul>
+                      <p>To play Telekinesis Race 3D, left-click on an enemy to lift it into the air and launch it at another opponent. Interact with other objects like fuel barrels to eliminate opponents, jump off jumps, and avoid collisions with obstacles. By winning races, players can collect gold coins to purchase additional weapons and enhance their gameplay experience.
+                      </p>
+                  </div>
+                  <div style="display: block">
+                    <div style="padding: 20px 0;" class="Uppercase">
+                      <h2>How To Play?</h2>
+                    </div>
+                    <div class="Game-control">
+                      <p>Hold the left mouse button to pick up objects and weapons, and release them to throw in different directions.</p>
+                    </div>
+                  </div>
+                  <div class="Games_tag"></div>
+                  <style>
+                    .Padd_tag {
+                      float: left;
+                      padding-bottom: 30px;
+                    }
+
+                    .Games_tag {
+                      padding-top: 18px;
+                    }
+
+                    .Games_tag a {
+                      padding: 5px 10px;
+                      background: #f0f8ec;
+                      border-radius: 12px;
+                      margin-right: 18px;
+                      text-transform: capitalize;
+                      color: blue;
+                      font-weight: 600;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div class="Cmt_box" style="height: auto !important;">
+              <div class="Margin-left" style="height: auto !important;">
+                <div class="Qc_mid" style="height: auto !important;">
+                  <div class="H_QC"></div>
+                  <div class="Txt">advertisement</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style=" padding: 15px;" class="Also">Similar Games</div>
+          <div class="Clect">
+            <div style class="You_can_know">
+              <div class="Pantheon">
+                <div class="Also">
+                  <div style=" padding: 0 5px;">
+                    <div class="Qc_mid">
+                      <div class="H_QC">
+                        
+                      </div>
+                      <div class="Txt">advertisement</div>
+                    </div>
+                  </div>
+                </div>
+                <div style=" padding-top: 15px;" class="Single-game">
+                                    <a href="https://trafficjam3d.github.io/city-driver-steal-cars.html" title="City Driver Steal Cars">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/city-driver-steal-cars//logo.png" alt="City Driver Steal Cars">
+                        </div>
+                        <div class="Last_box">City Driver Steal Cars</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/hill-climb-pixel-car.html" title="Hill Climb Pixel Car">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/hill-climb-pixel-car//logo.png" alt="Hill Climb Pixel Car">
+                        </div>
+                        <div class="Last_box">Hill Climb Pixel Car</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/mouse-2-player-moto-racing.html" title="Mouse 2 Player Moto Racing">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/mouse-2-player-moto-racing//logo.png" alt="Mouse 2 Player Moto Racing">
+                        </div>
+                        <div class="Last_box">Mouse 2 Player Moto Racing</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/2-player-dark-racing.html" title="2 Player Dark Racing">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/2-player-dark-racing//logo.png" alt="2 Player Dark Racing">
+                        </div>
+                        <div class="Last_box">2 Player Dark Racing</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/cyber-racer-battles.html" title="Cyber Racer Battles">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/cyber-racer-battles//logo.png" alt="Cyber Racer Battles">
+                        </div>
+                        <div class="Last_box">Cyber Racer Battles</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/cosmic-racer-3d.html" title="Cosmic Racer 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/cosmic-racer-3d//logo.png" alt="Cosmic Racer 3D">
+                        </div>
+                        <div class="Last_box">Cosmic Racer 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/mr-racer-car-racing.html" title="Mr. Racer">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/mr-racer-car-racing//logo.png" alt="Mr. Racer">
+                        </div>
+                        <div class="Last_box">Mr. Racer</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/racing-in-city.html" title="Racing in City">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/racing-in-city//logo.png" alt="Racing in City">
+                        </div>
+                        <div class="Last_box">Racing in City</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/bouncy-motors.html" title="Bouncy Motors">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/bouncy-motors//logo.png" alt="Bouncy Motors">
+                        </div>
+                        <div class="Last_box">Bouncy Motors</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/sportcars-crash.html" title="Sportcars Crash">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/sportcars-crash//logo.png" alt="Sportcars Crash">
+                        </div>
+                        <div class="Last_box">Sportcars Crash</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/toy-rider.html" title="Toy Rider">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/toy-rider//logo.png" alt="Toy Rider">
+                        </div>
+                        <div class="Last_box">Toy Rider</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/atv-ultimate-offroad.html" title="ATV Ultimate OffRoad">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/atv-ultimate-offroad//logo.png" alt="ATV Ultimate OffRoad">
+                        </div>
+                        <div class="Last_box">ATV Ultimate OffRoad</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/construction-ramp-jumping.html" title="Construction Ramp Jumping">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/construction-ramp-jumping//logo.png" alt="Construction Ramp Jumping">
+                        </div>
+                        <div class="Last_box">Construction Ramp Jumping</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/super-hero-driving-school.html" title="Super Hero Driving School">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/super-hero-driving-school//logo.png" alt="Super Hero Driving School">
+                        </div>
+                        <div class="Last_box">Super Hero Driving School</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/jump-in-to-the-plane.html" title="Jump Into The Plane">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/jump-in-to-the-plane//logo.png" alt="Jump Into The Plane">
+                        </div>
+                        <div class="Last_box">Jump Into The Plane</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/hyperspace-racers-3.html" title="Hyperspace Racers 3">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/hyperspace-racers-3//logo.png" alt="Hyperspace Racers 3">
+                        </div>
+                        <div class="Last_box">Hyperspace Racers 3</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/racing-limits.html" title="Racing Limits">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/racing-limits//logo.png" alt="Racing Limits">
+                        </div>
+                        <div class="Last_box">Racing Limits</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/rally-racer-dirt.html" title="Rally Racer Dirt">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/rally-racer-dirt//logo.png" alt="Rally Racer Dirt">
+                        </div>
+                        <div class="Last_box">Rally Racer Dirt</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/night-city-racing.html" title="Night City Racing">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/night-city-racing//logo.png" alt="Night City Racing">
+                        </div>
+                        <div class="Last_box">Night City Racing</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/parking-fury-3d-beach-city-2.html" title="Parking Fury 3D: Beach City 2">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/parking-fury-3d-beach-city-2//logo.png" alt="Parking Fury 3D: Beach City 2">
+                        </div>
+                        <div class="Last_box">Parking Fury 3D: Beach City 2</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/sky-riders-buk.html" title="Sky Riders">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/sky-riders-buk//logo.png" alt="Sky Riders">
+                        </div>
+                        <div class="Last_box">Sky Riders</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/mx-offroad-master.html" title="MX Offroad Master">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/mx-offroad-master//logo.png" alt="MX Offroad Master">
+                        </div>
+                        <div class="Last_box">MX Offroad Master</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/ram-cars.html" title="Ram Cars">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/ram-cars//logo.png" alt="Ram Cars">
+                        </div>
+                        <div class="Last_box">Ram Cars</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/drift-escape.html" title="Drift Escape">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/drift-escape//logo.png" alt="Drift Escape">
+                        </div>
+                        <div class="Last_box">Drift Escape</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/crazy-for-speed.html" title="Crazy for Speed">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/crazy-for-speed//logo.png" alt="Crazy for Speed">
+                        </div>
+                        <div class="Last_box">Crazy for Speed</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/merge-battle-car.html" title="Merge Battle Car">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/merge-battle-car//logo.png" alt="Merge Battle Car">
+                        </div>
+                        <div class="Last_box">Merge Battle Car</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/car-speed-racing-tycoon.html" title="Car Speed Racing Tycoon">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/car-speed-racing-tycoon//logo.png" alt="Car Speed Racing Tycoon">
+                        </div>
+                        <div class="Last_box">Car Speed Racing Tycoon</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/highway-racer-2.html" title="Highway Racer 2">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/highway-racer-2//logo.png" alt="Highway Racer 2">
+                        </div>
+                        <div class="Last_box">Highway Racer 2</div>
+                      </div>
+                    </div>
+                  </a>
+                                    <a href="https://trafficjam3d.github.io/miami-crime-simulator-3d/" title="Miami Crime Simulator 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/miami-crime-simulator-3d/logo.png" alt="Miami Crime Simulator 3D">
+                        </div>
+                        <div class="Last_box">Miami Crime Simulator 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/mega-ramp-car-stunts/" title="Mega Ramp Car Stunts">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/mega-ramp-car-stunts/logo.png" alt="Mega Ramp Car Stunts">
+                        </div>
+                        <div class="Last_box">Mega Ramp Car Stunts</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/color-tunnel-2/" title="Color Tunnel 2">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/color-tunnel-2/logo.png" alt="Color Tunnel 2">
+                        </div>
+                        <div class="Last_box">Color Tunnel 2</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/stunt-biker-3d/" title="Stunt Biker 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/stunt-biker-3d/logo.png" alt="Stunt Biker 3D">
+                        </div>
+                        <div class="Last_box">Stunt Biker 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/snowcross-stunts-x3m/" title="Snowcross Stunts X3M">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/snowcross-stunts-x3m/logo.png" alt="Snowcross Stunts X3M">
+                        </div>
+                        <div class="Last_box">Snowcross Stunts X3M</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/sports-bike-racing/" title="Sports Bike Racing">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/sports-bike-racing/logo.png" alt="Sports Bike Racing">
+                        </div>
+                        <div class="Last_box">Sports Bike Racing</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/indian-uphill-bus-simulator-3d/" title="Indian Uphill Bus Simulator 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/indian-uphill-bus-simulator-3d/logo.png" alt="Indian Uphill Bus Simulator 3D">
+                        </div>
+                        <div class="Last_box">Indian Uphill Bus Simulator 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/furious-racing-3d/" title="Furious Racing 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/furious-racing-3d/logo.png" alt="Furious Racing 3D">
+                        </div>
+                        <div class="Last_box">Furious Racing 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/bicycle-stunts-3d/" title="Bicycle Stunts 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/bicycle-stunts-3d/logo.png" alt="Bicycle Stunts 3D">
+                        </div>
+                        <div class="Last_box">Bicycle Stunts 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/indian-truck-simulator-3d/" title="Indian Truck Simulator 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/indian-truck-simulator-3d/logo.png" alt="Indian Truck Simulator 3D">
+                        </div>
+                        <div class="Last_box">Indian Truck Simulator 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://trafficjam3d.github.io/kart-race-3d/" title="Kart Race 3D">
+                    <div class="Firt_box">
+                      <div class="Border_radius">
+                        <div class="Box_img">
+                          <img style="width: 100%;" src="https://trafficjam3d.github.io/kart-race-3d/logo.png" alt="Kart Race 3D">
+                        </div>
+                        <div class="Last_box">Kart Race 3D</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Footer">
+      <div class="Container">
+        <div class="Footer_container">
+          <a href="#" title="About Us">About Us</a>
+          <a href="#" title="Terms of Use">Terms of Use</a>
+          <a href="#" title="Privacy Policy">Privacy Policy</a>
+          <a href="#" title="DMCA">DMCA</a>
+          <a href="#" title="Contact Us">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      $("#expand").on('click', function() {
+        $("#iframehtml5").addClass("force_full_screen");
+        requestFullScreen(document.body);
+      });
+      $("#_exit_full_screen").on('click', cancelFullScreen);
+
+      function requestFullScreen(element) {
+        // Supports most browsers and their versions.
+        var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+        if (requestMethod) { // Native full screen.
+          requestMethod.call(element);
+        } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+          var wscript = new ActiveXObject("WScript.Shell");
+          if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+          }
+        }
+      }
+
+      function cancelFullScreen() {
+        $("#iframehtml5").removeClass("force_full_screen");
+        var requestMethod = document.cancelFullScreen || document.webkitCancelFullScreen || document.mozCancelFullScreen || document.exitFullScreenBtn;
+        if (requestMethod) { // cancel full screen.
+          requestMethod.call(document);
+        } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+          var wscript = new ActiveXObject("WScript.Shell");
+          if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+          }
+        }
+      }
+      if (document.addEventListener) {
+        document.addEventListener('webkitfullscreenchange', exitHandler, false);
+        document.addEventListener('mozfullscreenchange', exitHandler, false);
+        document.addEventListener('fullscreenchange', exitHandler, false);
+        document.addEventListener('MSFullscreenChange', exitHandler, false);
+      }
+
+      function exitHandler() {
+        if (document.webkitIsFullScreen === false || document.mozFullScreen === false || document.msFullscreenElement === false) {
+          cancelFullScreen();
+        }
+      }
+    </script>
+    <style>
+      .force_full_screen {
+        position: fixed !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 999;
+        top: 0px !important;
+        ;
+        border: 0px !important;
+        ;
+        left: 0px !important;
+        ;
+        right: 0px !important;
+        ;
+      }
+    </style>
+    <script>
+    function playgame(){
+      let game = document.querySelector('#preloading-game').dataset.url;
+      document.querySelector('#preloading-game').innerHTML = `<iframe style="display: block;height: 100%;border-radius: 16px;" id="iframehtml5" width="100%" height="688" src="${game}" frameborder="0" border="0" scrolling="no" class="iframe-default" allowfullscreen></iframe>`
+    }
+    </script>
+  </body>
+</html>
