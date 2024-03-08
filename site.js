@@ -4,6 +4,18 @@ var list = [
         "url": "https://trafficjam3d.github.io/miami-crime-simulator-3d/"
     },
     {
+        "title": "Bitlife",
+        "url": "https://bitlifeonline.github.io/"
+    },
+    {
+        "title": "Traffic Tour",
+        "url": "https://traffictour.github.io/"
+    },
+    {
+        "title": "Tiny Fishing",
+        "url": "http://tiny-fishing.github.io/"
+    },
+    {
         "title": "Mega Ramp Car Stunts",
         "url": "https://trafficjam3d.github.io/mega-ramp-car-stunts/"
     },
